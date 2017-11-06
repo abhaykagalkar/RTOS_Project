@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'led blink.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"led_blinks.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "led_blinks.o" --library_type=microlib --strict --scatter "led blink.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\led blink.map" -o "led blink.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'led blink.axf'
+### ADS-LD Command File: 'led blink.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'led blink.lnp', Handle=0x000010F4
+### Writing '.lnp' file
+### ADS-LD Command file 'led blink.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

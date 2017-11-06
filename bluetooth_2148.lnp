@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "bt2.o" --library_type=microlib --strict --scatter "bluetooth_2148.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\bluetooth_2148.map" -o "bluetooth_2148.axf"

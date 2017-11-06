@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" -o "led_blinks.o" --omf_browse "led_blinks.crf" --depend "led_blinks.d" "led_blinks.c"

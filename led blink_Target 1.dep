@@ -1,0 +1,4 @@
+Dependencies for Project 'led blink', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x59F4BBCA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\led_blinks.c)(0x59F4CDDE)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" -o "led_blinks.o" --omf_browse "led_blinks.crf" --depend "led_blinks.d")
+I (C:\Keil\ARM\INC\Philips\lpc214x.h)(0x4BB1C2C8)
